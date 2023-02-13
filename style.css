@@ -1,0 +1,52 @@
+@font-face {
+	font-family: Mainstay;
+	src: url(mainstay-owrla-webfont.woff);
+}
+
+* {
+	box-sizing: border-box;
+}
+
+body, html {
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	background-color: #ffffff;
+	color: #black;
+}
+
+#album {
+	position: fixed;
+	top: 0px;
+	left: 40%;
+	width: 20%;
+	height: auto;
+}
+
+.bg-wrap {
+  overflow: visible;
+  position: relative;
+}
+
+.bg-img {
+  opacity: 0.6;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: auto;
+}
+
+.content {
+	position: relative;
+}
+
+h1 {
+	font-family: Mainstay;
+}
+
+p {
+	color: #black;
+}
